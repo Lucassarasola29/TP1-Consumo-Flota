@@ -10,8 +10,10 @@ Programas Incluidos Viaje.java: Registra los datos de un viaje individual, calcu
 
 Instrucciones de Compilación y Ejecución desde Consola
 
-Compilar bash javac Viaje.java javac Flota.java
+Compilar  
+java Viaje.java 
+java Flota.java
 
 PREGUNTAS 1- El problema viene por como maneja java los numeros enteros al hacer divisiones, Si el total de kilómetros o la cantidad de camiones hubieran sido variables de tipo entero (int), al hacer la división total / cantidad, Java hace una "división entera". Como lo resolvimos seria hacerlo con un double para que entienda que necesitamos como resultado numeros decimales. 
 2-Protección del código estable: Si al escribir los cálculos o armar el informe el programa dejaba de compilar por algún error, el código de la carga de datos que ya funcionaba en main quedaba 100% a salvo. 
-3-
+3-  B3: Agregar formulas para calculo de rendimiento, consumo y costo por kilometro", Tendria la entrada de la patente del vehiculo, el kilometraje, le pedis el usuario eso y programa, eso sirve para calcular el recorrido que tuvo su auto, el consumo estimado que dio, el rendimiento por km, el gasto total, el costo total y mas cosas.
